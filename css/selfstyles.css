@@ -1,3 +1,5 @@
+/* Aplayer隐藏 */
+
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
     left: -66px !important;
     /* 默认情况下缩进左侧66px，只留一点箭头部分 */
@@ -6,38 +8,6 @@
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
     left: 0 !important;
     /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
-}
-
-/*夜间模式*/
-
-[data-theme="dark"] #aside_content .card-widget {
-    background: rgba(0, 0, 0, 0.5)!important;
-}
-
-[data-theme="dark"] div#post {
-    background: rgba(0, 0, 0, 0.5)!important;
-}
-
-/*阅读模式*/
-
-.read-mode #aside_content .card-widget {
-    background: rgba(158, 204, 171, 0.5)!important;
-}
-
-.read-mode div#post {
-    background: rgba(158, 204, 171, 0.5)!important;
-}
-
-/*夜间模式下的阅读模式*/
-
-[data-theme="dark"] .read-mode #aside_content .card-widget {
-    background: rgba(0, 0, 0, 0.5)!important;
-    color: #ffffff;
-}
-
-[data-theme="dark"] .read-mode div#post {
-    background: rgba(0, 0, 0, 0.5)!important;
-    color: #ffffff;
 }
 
 /* 页脚透明 */
@@ -52,24 +22,30 @@
     background: transparent!important;
 }
 
-/* 页面半透明 */
+/* 白天模式 */
 
-div#post {
-    background: rgba(255, 255, 255, 0.9);
+#recent-posts>.recent-post-item {
+    background: rgba(255, 255, 255, 0.9)
 }
 
-div#page {
-    background: rgba(255, 255, 255, 0.9);
+#aside-content .card-widget {
+    background: rgba(255, 255, 255, 0.9)
 }
 
-div#archive {
-    background: rgba(255, 255, 255, 0.9);
+.layout>div:first-child:not(.recent-posts) {
+    background: rgba(255, 255, 255, 0.9)
 }
 
-div#tag {
-    background: rgba(255, 255, 255, 0.9);
+/* 夜间模式 */
+
+[data-theme='dark'] #recent-posts>.recent-post-item {
+    background: rgba(0, 0, 0, 0.8)
 }
 
-div#category {
-    background: rgba(255, 255, 255, 0.9);
+[data-theme='dark'] #aside-content .card-widget {
+    background: rgba(0, 0, 0, 0.8)
+}
+
+[data-theme='dark'] .layout>div:first-child:not(.recent-posts) {
+    background: rgba(0, 0, 0, 0.8)
 }

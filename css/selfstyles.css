@@ -49,3 +49,7 @@
 [data-theme='dark'] .layout>div:first-child:not(.recent-posts) {
     background: rgba(0, 0, 0, 0.8)
 }
+
+[data-theme='dark'] .read-mode {
+    --readmode-light-color: rgba(0, 0, 0, 0.85);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Font Awesome Free 5.15.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+
+<body>
+    <nav>
+        <a class="fas fa-external-link-alt" href="https://www.gyhyfj.top"> Home</a>
+        <a class="fas fa-code" href="https://github.com/gyhyfj"> Code</a>
+    </nav>
+    <div id="app"></div>
+    <script>
+        window.$docsify = {
+            /* 封面 */
+            coverpage: true,
+            coverpage: 'coverpage.md',
+            onlyCover: true,
+
+            /* 左上角文档标题 */
+            name: 'CS61A',
+            nameLink: '/',
+
+            /* 侧边栏 */
+            loadSidebar: true,
+            loadSidebar: 'summary.md',
+
+            /* 导航 */
+            // loadNavbar: true,
+            // loadNavbar: 'nav.md',
+
+            /* 右上角三角标 */
+            // repo: 'https://github.com/gyhyfj',
+
+            /* 外部链接是否打开新页面 */
+            externalLinkTarget: '_self',
+
+            /* 侧边栏生成目录的层级 */
+            subMaxLevel: 2,
+
+            /* 切换新页面自动跳转到页面顶部 */
+            auto2top: true,
+
+        }
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+
+</html>

@@ -53,3 +53,9 @@
 [data-theme='dark'] .read-mode {
     --readmode-light-color: rgba(0, 0, 0, 0.85);
 }
+
+/* 最新评论圆形头像 */
+
+#aside-content .aside-list>.aside-list-item .thumbnail {
+    border-radius: 60px;
+}

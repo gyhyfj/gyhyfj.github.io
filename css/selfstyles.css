@@ -25,29 +25,29 @@
 /* 白天模式 */
 
 #recent-posts>.recent-post-item {
-    background: rgba(255, 255, 255, 0.9)
+    background: rgba(255, 255, 255, 0.95)
 }
 
 #aside-content .card-widget {
-    background: rgba(255, 255, 255, 0.9)
+    background: rgba(255, 255, 255, 0.95)
 }
 
 .layout>div:first-child:not(.recent-posts) {
-    background: rgba(255, 255, 255, 0.9)
+    background: rgba(255, 255, 255, 0.95)
 }
 
 /* 夜间模式 */
 
 [data-theme='dark'] #recent-posts>.recent-post-item {
-    background: rgba(0, 0, 0, 0.8)
+    background: rgba(0, 0, 0, 0.85)
 }
 
 [data-theme='dark'] #aside-content .card-widget {
-    background: rgba(0, 0, 0, 0.8)
+    background: rgba(0, 0, 0, 0.85)
 }
 
 [data-theme='dark'] .layout>div:first-child:not(.recent-posts) {
-    background: rgba(0, 0, 0, 0.8)
+    background: rgba(0, 0, 0, 0.85)
 }
 
 [data-theme='dark'] .read-mode {
